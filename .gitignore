@@ -1,0 +1,32 @@
+
+### .gitignore
+
+Here’s a basic `.gitignore` file, useful if you want to exclude environment files, Python caches, or other potential files:
+
+```plaintext
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment files
+.env
+
+# macOS files
+.DS_Store
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Backup files
+*.bak
+*.swp
+
+# Logs
+*.log
