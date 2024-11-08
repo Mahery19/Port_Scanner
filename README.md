@@ -22,23 +22,27 @@ This is an advanced Python port scanner tool that performs multi-threaded scanni
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/advanced-port-scanner.git
-    cd advanced-port-scanner
+    git clone https://github.com/Mahery19/Port_Scanner.git
+    cd Port_Scanner
     ```
 
 2. **Install dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
+## Setup API Key
 
-3. **Set up your IPinfo API Key**:
-   - In the `advanced_port_scanner.py` script, replace `"b34c4319427fda"` in `IPINFO_API_KEY` with your actual IPinfo API key for the GeoIP lookup to function properly.
+1. Create a `.env` file in the project directory.
+2. Add your IPinfo API key to the `.env` file:
+
+   ```plaintext
+   IPINFO_API_KEY=your_actual_api_key
 
 ## Usage
 
 1. Run the scanner script:
     ```bash
-    python advanced_port_scanner.py
+    python main.py
     ```
 
 2. Enter the required information:
@@ -52,14 +56,6 @@ This is an advanced Python port scanner tool that performs multi-threaded scanni
 - **requirements.txt**: List of required Python packages.
 - **README.md**: Documentation for the project.
 - **.gitignore**: Configuration to ignore unnecessary files.
-
-## Setup API Key
-
-1. Create a `.env` file in the project directory.
-2. Add your IPinfo API key to the `.env` file:
-
-   ```plaintext
-   IPINFO_API_KEY=your_actual_api_key
 
 
 ## License
